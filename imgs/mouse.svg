@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+    <rect width="600" height="400" fill="#eeeeee"/>
+
+    <path d="M300 70
+             C220 70 170 130 170 220
+             C170 300 220 340 300 340
+             C380 340 430 300 430 220
+             C430 130 380 70 300 70Z"
+          fill="#333333"/>
+
+    <line x1="300" y1="75" x2="300" y2="180"
+          stroke="#eeeeee"
+          stroke-width="8"/>
+
+    <circle cx="300" cy="130" r="15" fill="#5dade2"/>
+
+    <text x="300" y="380"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="30"
+          fill="#222222">
+        MOUSE GAMER
+    </text>
+</svg>

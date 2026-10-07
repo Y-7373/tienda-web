@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400" viewBox="0 0 600 400">
+    <rect width="600" height="400" fill="#eeeeee"/>
+    <rect x="70" y="100" width="460" height="200" rx="20" fill="#333333"/>
+
+    <g fill="#dddddd">
+        <rect x="100" y="130" width="45" height="35"/>
+        <rect x="155" y="130" width="45" height="35"/>
+        <rect x="210" y="130" width="45" height="35"/>
+        <rect x="265" y="130" width="45" height="35"/>
+        <rect x="320" y="130" width="45" height="35"/>
+        <rect x="375" y="130" width="45" height="35"/>
+
+        <rect x="100" y="180" width="45" height="35"/>
+        <rect x="155" y="180" width="45" height="35"/>
+        <rect x="210" y="180" width="45" height="35"/>
+        <rect x="265" y="180" width="45" height="35"/>
+        <rect x="320" y="180" width="45" height="35"/>
+        <rect x="375" y="180" width="45" height="35"/>
+
+        <rect x="150" y="230" width="300" height="35"/>
+    </g>
+
+    <text x="300" y="350"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="30"
+          fill="#222222">
+        TECLADO
+    </text>
+</svg>

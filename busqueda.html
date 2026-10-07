@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Buscar productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechStore</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+            <li><a href="busqueda.html">Buscar productos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="busqueda">
+
+        <h2>Buscar productos</h2>
+
+        <form id="form-busqueda">
+
+            <input
+                type="text"
+                id="campo-busqueda"
+                placeholder="Escribe un producto"
+            >
+
+            <button type="submit">Buscar</button>
+
+        </form>
+
+        <div id="resultados">
+
+            <p>Escribe algo para realizar una búsqueda.</p>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 TechStore</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

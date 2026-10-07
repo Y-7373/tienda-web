@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechStore</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+            <li><a href="busqueda.html">Buscar productos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section class="formulario">
+        <h2>Crear una cuenta</h2>
+
+        <form id="form-registro">
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+
+            <label for="email">Correo electrónico:</label>
+            <input
+                type="email"
+                id="email"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+            >
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password">
+
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input type="date" id="fecha">
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono">
+
+            <label class="checkbox">
+                <input type="checkbox" id="terminos">
+                Acepto los términos y condiciones.
+            </label>
+
+            <button type="submit" id="btn-registro" disabled>
+                Registrarse
+            </button>
+
+            <p id="mensaje-registro"></p>
+
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 TechStore</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

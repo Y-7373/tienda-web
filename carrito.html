@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechStore - Carrito</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>TechStore</h1>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="quienes-somos.html">Quiénes somos</a></li>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="carrito.html">Carrito (<span id="contador-carrito">0</span>)</a></li>
+            <li><a href="busqueda.html">Buscar productos</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Carrito de compra</h2>
+
+        <table class="tabla-carrito">
+
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr class="producto-carrito">
+                    <td>Laptop Pro</td>
+                    <td class="precio">15999</td>
+                    <td>
+                        <input type="number" class="cantidad" value="1" min="0">
+                    </td>
+                    <td class="subtotal">$15,999.00</td>
+                </tr>
+
+                <tr class="producto-carrito">
+                    <td>Audífonos Bluetooth</td>
+                    <td class="precio">899</td>
+                    <td>
+                        <input type="number" class="cantidad" value="1" min="0">
+                    </td>
+                    <td class="subtotal">$899.00</td>
+                </tr>
+
+                <tr class="producto-carrito">
+                    <td>Mouse Gamer</td>
+                    <td class="precio">599</td>
+                    <td>
+                        <input type="number" class="cantidad" value="2" min="0">
+                    </td>
+                    <td class="subtotal">$1,198.00</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+        <h3>
+            Total:
+            $<span id="total-carrito">18096.00</span>
+        </h3>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 TechStore</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
